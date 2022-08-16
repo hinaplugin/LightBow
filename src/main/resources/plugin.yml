@@ -1,0 +1,14 @@
+name: LightBow
+version: '${project.version}'
+main: com.hinaplugin.lightbow.lightbow.LightBow
+api-version: 1.19
+authors: [ hina2113 ]
+description: 専用の弓で打った矢の着弾地点に松明を設置する
+
+commands:
+  getLightBow:
+    permission: lb.co.getLightBow
+
+permissions:
+  lb.co.getLightBow:
+    default: true
